@@ -3275,6 +3275,7 @@ wilco_ec_debugfs
 wilco_ec_events
 wilco_ec_telem
 winbond-840
+wireguard
 wishbone-serial
 wl1273-core
 wm831x-dcdc
