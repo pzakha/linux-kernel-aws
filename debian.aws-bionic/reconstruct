@@ -1,7 +1,9 @@
 # Recreate any symlinks created since the orig.
 # Remove any files deleted from the orig.
 rm -f 'Documentation/usb/rio.rst'
+rm -f 'arch/x86/events/intel/rapl.c'
 rm -f 'drivers/gpu/drm/amd/display/dc/calcs/dcn_calc_math.h'
+rm -f 'drivers/input/serio/i8042-ppcio.h'
 rm -f 'drivers/usb/misc/rio500.c'
 rm -f 'drivers/usb/misc/rio500_usb.h'
 rm -f 'include/uapi/rdma/nes-abi.h'
@@ -10,6 +12,8 @@ rm -f 'tools/testing/selftests/bpf/prog_tests/global_data.c'
 rm -f 'tools/testing/selftests/bpf/progs/test_global_data.c'
 chmod +x 'debian.aws-bionic/scripts/helpers/copy-files'
 chmod +x 'debian.aws-bionic/scripts/helpers/local-mangle'
+chmod +x 'debian.hwe/scripts/helpers/copy-files'
+chmod +x 'debian.hwe/scripts/helpers/local-mangle'
 chmod +x 'debian/cloud-tools/hv_get_dhcp_info'
 chmod +x 'debian/cloud-tools/hv_get_dns_info'
 chmod +x 'debian/cloud-tools/hv_set_ifconfig'
